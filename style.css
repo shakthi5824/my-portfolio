@@ -34,13 +34,12 @@ body{
     background-color: #00D3F9;
 }
 header{
-    margin-top: 20px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1rem 9%;
-    background-color: transparent;
+    padding: 0rem 9%;
+    background-color: #151825;
     filter: drop-shadow(10px);
     display: flex;
     justify-content: space-between;
@@ -222,7 +221,7 @@ section{
             content: "HTML Developer";
         }
         81%,100%{
-            content: "CSS Developer";
+            content: "Web Designer";
         }
     }
     @media(max-width:1000px){
