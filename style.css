@@ -66,8 +66,7 @@ nav a{
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
 }
-nav a:hover,
-nav a.active{
+nav a:hover{
     color:#00D3F9;
     border-bottom: 3px solid #00D3F9;
 }
@@ -85,16 +84,12 @@ nav a.active{
         background-color:#151825;
         border-top:0.1rem solid rgba(0,0,0,0.1);
     }
-    nav.active{
-        display: block;
-    }
     nav a{
         display: block;
         font-size: 2rem;
         margin: 3rem;
     }
-    nav a:hover,
-    nav a.active{
+    nav a:hover{
         padding: 1rem;
         border-radius: 0.5rem;
         border-bottom: 0.5rem solid #00D3F9;
